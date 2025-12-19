@@ -1,0 +1,82 @@
+\contentsline {section}{\numberline {1}Data Structure}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\small FenwickTree \scriptsize [35 lines] - 9bd56f72}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}\small FenwickTree2h \scriptsize [31 lines] - d9a9aa5f}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}\small Persistent Segment Tree \scriptsize [64 lines] - 56d90f29}{1}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}\small Treap \scriptsize [166 lines] - d98b40d8}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}\small Zfunc \scriptsize [22 lines] - 6164fab0}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}\small fft \scriptsize [50 lines] - c672f576}{3}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}\small lca \scriptsize [36 lines] - 0421573f}{3}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}\small matrixMultiplication \scriptsize [33 lines] - 4fbe16ba}{3}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}\small mergeSortTree \scriptsize [56 lines] - 10087f57}{4}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}\small pbds \scriptsize [9 lines] - be428411}{4}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}\small sparse_table \scriptsize [42 lines] - 1b2d11b1}{4}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}\small suffixArrayBinSearch \scriptsize [168 lines] - 68b791d3}{4}{subsection.1.12}%
+\contentsline {section}{\numberline {2}Flow}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\small Blossom \scriptsize [58 lines] - 4efb5ae3}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\small Dinic \scriptsize [72 lines] - b82fa5b3}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\small Flow \scriptsize [6 lines] - cffa5276}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\small HopCroftKarp \scriptsize [67 lines] - bb94f51d}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}\small Hungarian \scriptsize [116 lines] - e1054195}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}\small MCMF \scriptsize [116 lines] - 24fe500f}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}\small maxflow \scriptsize [59 lines] - 27b6b6bb}{8}{subsection.2.7}%
+\contentsline {section}{\numberline {3}string}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\small Dynamic suffix array \scriptsize [179 lines] - f5cc9ffa}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\small customHash \scriptsize [16 lines] - 803dc8a8}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}\small hashing \scriptsize [53 lines] - 5e722c99}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}\small kmp \scriptsize [13 lines] - 040d082c}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}\small mancharsAlgorithm \scriptsize [32 lines] - 663d53a4}{9}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}\small suffix_array \scriptsize [98 lines] - c56e57cb}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}\small trie \scriptsize [143 lines] - d1f30347}{10}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Geometry}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\small Rotation Matrix \scriptsize [39 lines] - da59ff1d}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}\small hull \scriptsize [48 lines] - d6b6f949}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}\small minkowski \scriptsize [44 lines] - 9387db0c}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}miscellaneous}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\small BM \scriptsize [96 lines] - 9c0a4511}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}\small Sqrt Tricks \scriptsize [8 lines] - 8f8b610b}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}\small XOR_VECTOR_BASIS \scriptsize [31 lines] - e8d99179}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}\small debug \scriptsize [37 lines] - 299652fb}{13}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}\small floyed \scriptsize [14 lines] - 96e2562f}{13}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}\small geometry \scriptsize [18 lines] - 905dd994}{13}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}\small hopcroftKarp \scriptsize [75 lines] - bdd603f5}{13}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}\small inverseMatrix \scriptsize [95 lines] - 562baf66}{14}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}\small maxXor \scriptsize [68 lines] - 383bfa4d}{14}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}\small scc \scriptsize [59 lines] - 0514b290}{14}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}\small script \scriptsize [9 lines] - 3ba1f1d4}{15}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}\small stress \scriptsize [17 lines] - 6927ab2e}{15}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.13}\small vectorAddMultiplicaton \scriptsize [40 lines] - c20b8d12}{15}{subsection.5.13}%
+\contentsline {section}{\numberline {6}Game Theory}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\small Points to be noted \scriptsize [14 lines] - 85ddc883}{15}{subsection.6.1}%
+\contentsline {section}{\numberline {7}dp}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}\small CHT \scriptsize [46 lines] - ae81b51a}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}\small divideAndConquer \scriptsize [28 lines] - b9de33ed}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}\small dynamicCht \scriptsize [30 lines] - 497d2f53}{16}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Graph}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}\small Bipartite \scriptsize [89 lines] - 073e8191}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}\small Euler Path Directed \scriptsize [61 lines] - d5887c16}{16}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}\small Euler Path Undirected \scriptsize [92 lines] - 3e514bda}{17}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}\small HopCroft Karp Algorithm \scriptsize [64 lines] - 0eac5635}{17}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}\small MCBM \scriptsize [29 lines] - 7d0529db}{18}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}\small Maximum Independant Set \scriptsize [105 lines] - 2b659f45}{18}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}\small articulationBridge \scriptsize [45 lines] - 4af66da3}{18}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}\small articulationPoint \scriptsize [33 lines] - 0a056b91}{19}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}\small dsuWithRollback \scriptsize [57 lines] - 19da151f}{19}{subsection.8.9}%
+\contentsline {subsection}{\numberline {8.10}\small eulerianPathInAllConnected \scriptsize [28 lines] - b0312712}{19}{subsection.8.10}%
+\contentsline {subsection}{\numberline {8.11}\small heavyLightDecomposition \scriptsize [95 lines] - 7d512e94}{19}{subsection.8.11}%
+\contentsline {subsection}{\numberline {8.12}\small maxDistanceFromAllNode \scriptsize [25 lines] - 8bfd24d7}{20}{subsection.8.12}%
+\contentsline {subsection}{\numberline {8.13}\small mst \scriptsize [44 lines] - c3578a9f}{20}{subsection.8.13}%
+\contentsline {section}{\numberline {9}Number Theory}{20}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\small Diophantine \scriptsize [77 lines] - 40c31ff8}{20}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}\small convolution \scriptsize [201 lines] - f44c0e25}{21}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}\small crt \scriptsize [77 lines] - fcdd52c1}{22}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}\small determinantOfMatrix \scriptsize [26 lines] - fa7731ea}{22}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}\small egcd \scriptsize [14 lines] - 0e34856e}{22}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}\small gauss \scriptsize [70 lines] - 65f7a22c}{23}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}\small hi \scriptsize [0 lines] - d41d8cd9}{23}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}\small inverse \scriptsize [3 lines] - ef9c1acd}{23}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}\small linear_system \scriptsize [83 lines] - 062d3731}{23}{subsection.9.9}%
+\contentsline {subsection}{\numberline {9.10}\small movius \scriptsize [10 lines] - 5191fda7}{23}{subsection.9.10}%
+\contentsline {subsection}{\numberline {9.11}\small phi \scriptsize [34 lines] - dda0b159}{24}{subsection.9.11}%
+\contentsline {subsection}{\numberline {9.12}\small pollardRho \scriptsize [195 lines] - 7b5dd641}{24}{subsection.9.12}%
+\contentsline {subsection}{\numberline {9.13}\small prime \scriptsize [48 lines] - cd32f7ee}{25}{subsection.9.13}%
+\contentsline {subsection}{\numberline {9.14}\small sieve \scriptsize [23 lines] - 1a683527}{25}{subsection.9.14}%

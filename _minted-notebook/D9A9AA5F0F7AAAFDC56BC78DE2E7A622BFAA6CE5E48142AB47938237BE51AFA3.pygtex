@@ -1,0 +1,33 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+* Description: Computes sums a[i,j] for all i\PYGZlt{}I, j\PYGZlt{}J, and increases single elements a[i,j].
+ *  Requires that the elements to be updated are known in advance (call fakeUpdate() before init()).
+ * Time: \PYGZdl{}O(\PYGZbs{}log\PYGZca{}2 N)\PYGZdl{}. (Use persistent segment trees for \PYGZdl{}O(\PYGZbs{}log N)\PYGZdl{}.)
+ * Status: stress\PYGZhy{}tested
+ */
+\PYGZsh{}pragma once
+
+\PYGZsh{}include \PYGZdq{}FenwickTree.h\PYGZdq{}
+
+struct FT2 \PYGZob{}
+	vector\PYGZlt{}vi\PYGZgt{} ys; vector\PYGZlt{}FT\PYGZgt{} ft;
+	FT2(int limx) : ys(limx) \PYGZob{}\PYGZcb{}
+	void fakeUpdate(int x, int y) \PYGZob{}
+		for (; x \PYGZlt{} sz(ys); x |= x + 1) ys[x].push\PYGZus{}back(y);
+	\PYGZcb{}
+	void init() \PYGZob{}
+		for (vi\PYGZam{} v : ys) sort(all(v)), ft.emplace\PYGZus{}back(sz(v));
+	\PYGZcb{}
+	int ind(int x, int y) \PYGZob{}
+		return (int)(lower\PYGZus{}bound(all(ys[x]), y) \PYGZhy{} ys[x].begin()); \PYGZcb{}
+	void update(int x, int y, ll dif) \PYGZob{}
+		for (; x \PYGZlt{} sz(ys); x |= x + 1)
+			ft[x].update(ind(x, y), dif);
+	\PYGZcb{}
+	ll query(int x, int y) \PYGZob{}
+		ll sum = 0;
+		for (; x; x \PYGZam{}= x \PYGZhy{} 1)
+			sum += ft[x\PYGZhy{}1].query(ind(x\PYGZhy{}1, y));
+		return sum;
+	\PYGZcb{}
+\PYGZcb{};
+\end{Verbatim}

@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+/**
+ * Author: chilli
+ * License: CC0
+ * Description: z[i] computes the length of the longest common prefix of s[i:] and s,
+ * except z[0] = 0. (abacaba \PYGZhy{}\PYGZgt{} 0010301)
+ * Time: O(n)
+ * Status: stress\PYGZhy{}tested
+ */
+\PYGZsh{}pragma once
+
+vi Z(const string\PYGZam{} S) \PYGZob{}
+	vi z(sz(S));
+	int l = \PYGZhy{}1, r = \PYGZhy{}1;
+	rep(i,1,sz(S)) \PYGZob{}
+		z[i] = i \PYGZgt{}= r ? 0 : min(r \PYGZhy{} i, z[i \PYGZhy{} l]);
+		while (i + z[i] \PYGZlt{} sz(S) \PYGZam{}\PYGZam{} S[i + z[i]] == S[z[i]])
+			z[i]++;
+		if (i + z[i] \PYGZgt{} r)
+			l = i, r = i + z[i];
+	\PYGZcb{}
+	return z;
+\PYGZcb{}
+\end{Verbatim}

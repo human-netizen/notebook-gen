@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+set \PYGZhy{}e
+g++ code.cpp \PYGZhy{}o code
+g++ gen.cpp \PYGZhy{}o gen
+g++ brute.cpp \PYGZhy{}o brute
+for((i = 1; ; ++i)); do
+    ./gen \PYGZdl{}i \PYGZgt{} input\PYGZus{}file
+    ./code \PYGZlt{} input\PYGZus{}file \PYGZgt{} myAnswer
+    ./brute \PYGZlt{} input\PYGZus{}file \PYGZgt{} correctAnswer
+    diff \PYGZhy{}Z myAnswer correctAnswer \PYGZgt{} /dev/null || break
+    echo \PYGZdq{}Passed test: \PYGZdq{}  \PYGZdl{}i
+done
+echo \PYGZdq{}WA on the following test:\PYGZdq{}
+cat input\PYGZus{}file
+echo \PYGZdq{}Your answer is:\PYGZdq{}
+cat myAnswer
+echo \PYGZdq{}Correct answer is:\PYGZdq{}
+cat correctAnswer
+\end{Verbatim}

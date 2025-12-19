@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n+nf}{is\PYGZus{}cross}\PYG{p}{(}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{a}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{c}\PYG{p}{,}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x1}\PYG{p}{,}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{y1}\PYG{p}{,}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{x2}\PYG{p}{,}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{y2}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{f1}\PYG{o}{=}\PYG{n}{a}\PYG{o}{*}\PYG{n}{x1}\PYG{o}{+}\PYG{n}{b}\PYG{o}{*}\PYG{n}{y1}\PYG{o}{+}\PYG{n}{c}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{f2}\PYG{o}{=}\PYG{n}{a}\PYG{o}{*}\PYG{n}{x2}\PYG{o}{+}\PYG{n}{b}\PYG{o}{*}\PYG{n}{y2}\PYG{o}{+}\PYG{n}{c}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{p}{(}\PYG{n}{f1}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{0}\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{n}{f2}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{p}{(}\PYG{n}{f1}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{0}\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{n}{f2}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\PYG{n}{pair}\PYG{o}{\PYGZlt{}}\PYG{n}{ld}\PYG{p}{,}\PYG{n}{ld}\PYG{o}{\PYGZgt{}}\PYG{n}{cross\PYGZus{}point}\PYG{p}{(}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{c}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{aa}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{bb}\PYG{p}{,}\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{cc}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{xx}\PYG{o}{=}\PYG{p}{(}\PYG{n}{cc}\PYG{o}{*}\PYG{n}{b}\PYG{o}{/}\PYG{n}{bb}\PYG{o}{\PYGZhy{}}\PYG{n}{c}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{a}\PYG{o}{\PYGZhy{}}\PYG{n}{aa}\PYG{o}{*}\PYG{n}{b}\PYG{o}{/}\PYG{n}{bb}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{yy}\PYG{o}{=}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{c}\PYG{o}{\PYGZhy{}}\PYG{n}{a}\PYG{o}{*}\PYG{n}{xx}\PYG{p}{)}\PYG{o}{/}\PYG{n}{b}\PYG{p}{;}\PYG{l+m+mi}{3}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{n}{xx}\PYG{p}{,}\PYG{n}{yy}\PYG{p}{\PYGZcb{};}
+\PYG{p}{\PYGZcb{}}
+\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{dis}\PYG{p}{(}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{x1}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{y1}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{x2}\PYG{p}{,}\PYG{n}{ld}\PYG{+w}{ }\PYG{n}{y2}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{x1}\PYG{o}{\PYGZhy{}}\PYG{n}{x2}\PYG{p}{)}\PYG{o}{*}\PYG{p}{(}\PYG{n}{x1}\PYG{o}{\PYGZhy{}}\PYG{n}{x2}\PYG{p}{)}\PYG{o}{+}\PYG{p}{(}\PYG{n}{y1}\PYG{o}{\PYGZhy{}}\PYG{n}{y2}\PYG{p}{)}\PYG{o}{*}\PYG{p}{(}\PYG{n}{y1}\PYG{o}{\PYGZhy{}}\PYG{n}{y2}\PYG{p}{));}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+mkdir \PYGZhy{}p contest
+for dir in \PYGZob{}a..h\PYGZcb{}; do
+    mkdir \PYGZhy{}p contest/\PYGZdl{}dir
+    cp solve.cpp contest/\PYGZdl{}dir/
+    cp brute.cpp contest/\PYGZdl{}dir/
+    cp gen.cpp contest/\PYGZdl{}dir/
+    cp stress.sh contest/\PYGZdl{}dir/
+    chmod +x contest/\PYGZdl{}dir/stress.sh
+done
+\end{Verbatim}
